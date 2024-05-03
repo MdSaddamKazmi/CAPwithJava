@@ -1,19 +1,19 @@
-clone this repo and switch to branch : check_service_and_preview_with_csv_file_entries by using command "git switch check_service_and_preview_with_csv_file_entries"
-
-(No need to clone the repo again if you have already cloned it once. you can just switch to above mentioned branch)
+clone the repo and switch to branch : custom_handler (No need to clone the repo again if you have already cloned it once. you can just switch to above mentioned branch)
 
 Below steps have been taken ==>
-* Added csv folder inside db folder and added files per entity with naming convention as :
-namespace-entityname.csv ( you can check the name of namespace in schema.cds file in db folder )
-* Here in this example namespace is MdSaddamKazmi.Project_Student_Details and Entities are Student and School
-* Added fieldnames and few records per entity in the csv file.
+
+A file was created inside srv folder with naming convention as namespace-service.js // here the file name is StudentDetails-service.js
+
+Added the code to update email as firstname + last name + @gmail.com if email field is left blank while creating student record
+
+Added the code to increase the strength (number of students in school) of school by 1 once the student record is added for that school
 
 What you need to do ==>
-* Check files in path db/csv.
-* Add any number of records in csv files as per your choice
-* use command "cd Project_Student_Details" in terminal to go inside the folder and use command "mvn spring-boot:run" to check the data  on port 8080
-* Once you have checked the data , use CTRL+C in Terminal to stop the local server
 
-**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_basic_schema_and_service
+use "cd Project_Student_Details" to go inside the folder. ** If you are directly checking this branch ,first deploy to sqlite by using command "cds deploy --to sqlite:student.db"
+use command "cds watch".Check the schoolstrength of a school record.
+create a record of student and then check the record of school . It should have increased by 1
+use CTRL+C in Terminal to stop the local server
+*** you can get more knowledge of services via the link : https://cap.cloud.sap/docs/node.js/core-services
 
-**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_ui
+**Previous Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/test_locally
