@@ -11,6 +11,6 @@ What you need to do ==>
 * Once you have checked metadata , use CTRL+C in Terminal to stop the local server
 
   
-**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/basic_cap_structure
+**Previous Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/basic_cap_structure
 
-**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/check_service_and_preview_with_csv_file_entries
+**Next Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/check_service_and_preview_with_csv_file_entries
