@@ -1,19 +1,21 @@
-clone this repo and switch to branch : check_service_and_preview_with_csv_file_entries by using command "git switch check_service_and_preview_with_csv_file_entries"
+clone the repo and switch to branch : add_ui (No need to clone the repo again if you have already cloned it once. you can just switch to above mentioned branch)
 
-(No need to clone the repo again if you have already cloned it once. you can just switch to above mentioned branch)
+Below steps have been executed ==> open application generator with CTRL+SHIFT+P and added a template
 
-Below steps have been taken ==>
-* Added csv folder inside db folder and added files per entity with naming convention as :
-namespace-entityname.csv ( you can check the name of namespace in schema.cds file in db folder )
-* Here in this example namespace is MdSaddamKazmi.Project_Student_Details and Entities are Student and School
-* Added fieldnames and few records per entity in the csv file.
+selected "list report page" template. clicked on next
+* selected "choose a Local CAP project" as data soure , chose the project as Project_Student_Details and service as EmployeeService (Node.js)
+* Chose main entity as Students and checked radio button as yes for "Automatically add table columns to the list page and a section to the object page if none already exists?"
+  on the final page of attributes , left everything as it is ( default values) .click on Finish
+* Once above steps are done , checked the folder "app"
 
 What you need to do ==>
-* Check files in path db/csv.
-* Add any number of records in csv files as per your choice
-* use command "cd Project_Student_Details" in terminal to go inside the folder and use command "mvn spring-boot:run" to check the data  on port 8080
-* Once you have checked the data , use CTRL+C in Terminal to stop the local server
 
-**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_basic_schema_and_service
+* Check the folder app/project1
+* use "cd Project_Student_Details" to go inside the folder and use command "cds watch" to check the data on port 4004
+* UI will be available under the section "web applications"
+* Once you have checked UI , use CTRL+C in Terminal to stop the local server
 
-**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_ui
+
+**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/check_service_and_preview_with_csv_file_entries
+
+**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_annotations
