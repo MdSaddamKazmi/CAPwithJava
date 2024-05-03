@@ -22,7 +22,8 @@
     * This is the repository path : https://github.com/MdSaddamKazmi/CAPwithJava.git
 
     * Press CTRL+SHIFT+P to open command pallet and type "open folder" and choose below path /home/user/projects/CAPwithJava.
-      ![image](https://github.com/MdSaddamKazmi/CAP/assets/54942497/e80ededd-3b3a-4390-92c4-181f560951e8)
+      ![image](https://github.com/MdSaddamKazmi/CAPwithJava/assets/54942497/e28736f0-5b69-4026-a407-3236f050f7ed)
+
 
     * If you don't see "Get started" page on opening BAS then follow below shown path :
      ![image](https://github.com/MdSaddamKazmi/CAP/assets/54942497/29a8d958-d280-4a6c-bc6b-ba316e243599)
