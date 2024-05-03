@@ -11,9 +11,9 @@ namespace-entityname.csv ( you can check the name of namespace in schema.cds fil
 What you need to do ==>
 * Check files in path db/csv.
 * Add any number of records in csv files as per your choice
-* use command "cd Project_Student_Details" in terminal to go inside the folder and use command "mvn spring-boot:run" to check the data  on port 8080
+* use command "cd Project_Student_Details" in terminal to go inside the folder and use command "mvn spring-boot:run" to check the data on port 8080
 * Once you have checked the data , use CTRL+C in Terminal to stop the local server
 
-**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_basic_schema_and_service
+**Previous Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/add_basic_schema_and_service
 
-**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_ui
+**Next Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/add_ui
