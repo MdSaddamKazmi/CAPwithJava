@@ -1,0 +1,37 @@
+### GET Student
+GET http://localhost:8080/odata/v4/StudentDetails/Students
+Content-Type: application/json
+
+
+### CREATE Student
+POST http://localhost:8080/odata/v4/StudentDetails/Students
+Content-Type: application/json
+
+{     "student_id": 281,
+      "firstName": "first name",
+      "lastName": "last name",
+      "dateOfBirth": "2000-04-14",
+      "dateOfJoining": "2014-04-14",
+      "email": "tes2t@gmail.com",
+      "phoneNumber": 1112223330 }
+
+### GET School
+GET http://localhost:8080/odata/v4/StudentDetails/Schools
+Content-Type: application/json
+
+### CREATE School
+POST http://localhost:8080/odata/v4/StudentDetails/Schools
+Content-Type: application/json
+
+{     "school_id": 503,
+      "SchoolName": "first name",
+      "Principal": "last name",
+      "SchoolStrength": 4,
+      "Curriculum": "CBSE",
+      "rating": "A"
+       }      
+
+
+### GET School
+GET http://localhost:8080/odata/v4/StudentDetails/Schools?$expand=students
+Content-Type: application/json
