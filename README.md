@@ -1,19 +1,19 @@
-clone this repo and switch to branch : check_service_and_preview_with_csv_file_entries by using command "git switch check_service_and_preview_with_csv_file_entries"
-
-(No need to clone the repo again if you have already cloned it once. you can just switch to above mentioned branch)
+clone the repo and switch to branch : add_annotations (No need to clone the repo again if you have already cloned it once. you can just switch to above mentioned branch)
 
 Below steps have been taken ==>
-* Added csv folder inside db folder and added files per entity with naming convention as :
-namespace-entityname.csv ( you can check the name of namespace in schema.cds file in db folder )
-* Here in this example namespace is MdSaddamKazmi.Project_Student_Details and Entities are Student and School
-* Added fieldnames and few records per entity in the csv file.
+
+* Annotations have been added in file app/studentdetails/annotations.cds amd app/schooldetails/annotations.cds and app/services.cds
+* On UI , You can see that below mentioned issues have already been addressed: a) there is no selection field apart from default "search" selection b) the column's label is fieldname but not some meaningful labels c) few columns are not getting displayed by default and can only be displayed by clicking on settings button on UI d) there is only 1 facet (General information) on detail page
+
 
 What you need to do ==>
-* Check files in path db/csv.
-* Add any number of records in csv files as per your choice
-* use command "cd Project_Student_Details" in terminal to go inside the folder and use command "mvn spring-boot:run" to check the data  on port 8080
-* Once you have checked the data , use CTRL+C in Terminal to stop the local server
 
-**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_basic_schema_and_service
+* use "cd Project_Student_Details" to go inside the folder and use command "cds watch" to check the app on port 4004
+* Open the file annotations.cds in the path app/project1 and check the added annotations.
+* In case you want to add any other annotation , you can refer https://cap.cloud.sap/docs/advanced/fiori
+* once you have checked changes on annotations on UI , use CTRL+C in Terminal to stop the local server
 
-**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_ui
+
+**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_ui
+
+**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_local_db_and_test_locally
