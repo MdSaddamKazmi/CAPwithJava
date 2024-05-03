@@ -12,6 +12,6 @@ use "cd Project_Student_Details" to go inside the folder
 * Use command "mvn spring-boot:run" and then click on "send request" in test.http file for CRUD operation
 * Once tested , use CTRL+C in Terminal to stop the local server
 
-**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_annotations
+**Previous Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/add_annotations
 
-**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/draft_enabled
+**Next Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/custom_handler
