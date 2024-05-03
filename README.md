@@ -13,7 +13,7 @@ This added db and srv folders to the project directory.
 
 
 What you need to do ==>
-Check the basic struture of folders
+* Check the basic struture of folders
 
 
 **Next Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/add_basic_schema_and_service
