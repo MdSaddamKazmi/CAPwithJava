@@ -8,12 +8,13 @@ Below steps have been taken ==>
 
 What you need to do ==>
 
-* use "cd Project_Student_Details" to go inside the folder and use command "cds watch" to check the app on port 4004
-* Open the file annotations.cds in the path app/project1 and check the added annotations.
+* use "cd Project_Student_Details" to go inside the folder and use command "mvn spring-boot:run" to check the app on port 8080
+* Open the file annotations.cds in the path app/studentdetails, app/schooldetails and check the added annotations.
+* Open services.cds file in path app/services.cds to check the added annotations.
 * In case you want to add any other annotation , you can refer https://cap.cloud.sap/docs/advanced/fiori
 * once you have checked changes on annotations on UI , use CTRL+C in Terminal to stop the local server
 
 
-**Previous Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_ui
+**Previous Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/add_ui
 
-**Next Branch : https://github.com/MdSaddamKazmi/CAP/tree/add_local_db_and_test_locally
+**Next Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/test_locally
