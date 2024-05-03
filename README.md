@@ -15,6 +15,5 @@ What you need to do ==>
 * Create a student record without filling email and then save school record. Email should get fillde with concatenated value of first name , last name and @gmail.com
 * use CTRL+C in Terminal to stop the local server
 
-  
 
 **Previous Branch : https://github.com/MdSaddamKazmi/CAPwithJava/tree/test_locally
