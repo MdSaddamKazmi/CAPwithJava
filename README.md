@@ -2,7 +2,7 @@ clone the repo and switch to branch : add_local_db_and_test_locally (No need to 
 
 Below steps have been taken ==>
 
-* Created afile test.http in main project folder.
+* Created a file test.http in main project folder and added code to test CRUD operation
 
 What you need to do ==>
 
