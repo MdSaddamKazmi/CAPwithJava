@@ -41,10 +41,8 @@ Sequence number : Branch name
 * 3 : check_service_and_preview_with_csv_file_entries
 * 4 : add_ui
 * 5 : add_annotations
-* 6 : add_local_db_and_test_locally
-* 7 : draft_enabled
-* 8 : custom_handler
-* 9 : composition
+* 6 : test_locally
+* 7 : custom_handler
 
 
 
